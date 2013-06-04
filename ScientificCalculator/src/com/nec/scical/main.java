@@ -6,13 +6,16 @@ import java.util.Iterator;
 import java.util.Stack;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 
 public class main extends Activity {
@@ -334,5 +337,7 @@ public class main extends Activity {
 			memoryStatText.setText("M = " + doubleToString(memoryValue));
 		}
 	}
+
+
 
 }

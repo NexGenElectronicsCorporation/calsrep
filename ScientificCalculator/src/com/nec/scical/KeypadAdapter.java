@@ -2,6 +2,7 @@ package com.nec.scical;
 
 import android.widget.*;
 import android.content.*;
+import android.graphics.Color;
 import android.view.*;
 import android.view.View.OnClickListener;
 
@@ -39,6 +40,7 @@ public class KeypadAdapter extends BaseAdapter {
 									// attributes
 
 			btn = new Button(mContext);
+			btn.setTextColor(Color.BLUE);
 			KeypadButton keypadButton = mButtons[position];
 			
 			switch(keypadButton.mCategory)
